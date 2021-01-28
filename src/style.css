@@ -1,0 +1,66 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  margin: 60px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+form {
+  margin: 10px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 25px;
+}
+h2,
+h3 {
+  text-transform: capitalize;
+}
+
+h4 {
+  font-size: 48px;
+}
+
+.weekday img {
+  width: 35px;
+}
+
+.card {
+  padding: 20px 30px;
+  border-radius: 20px;
+
+  /*clear sky nighttime
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  color: whitesmoke;
+  */
+
+  background-image: linear-gradient(to top, #a1c4fd 0%, #c2e9fb 100%);
+  /*clear sky daylight
+  */
+  /*thunderstorm
+  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light
+          */
+
+  /*snow
+          background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  */
+  /* Rain or cloudy
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  */
+}
